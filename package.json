@@ -4,8 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npx tailwindcss -i ./src/input.css -o ./assets/css/style.css --watch"
-  },
+  "dev": "npx tailwindcss -i ./src/input.css -o ./assets/css/style.css --watch",
+  "build": "npx tailwindcss -i ./src/input.css -o ./assets/css/style.css",
+  "start": "npm run dev"
+}
+,
   "keywords": [],
   "author": "",
   "license": "ISC",
